@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="calc"></p>
+
+    <script>
+        function ad(x, y){      // creating function
+            document.write("Tanishka");
+            document.write(x+y+"<br>");
+            return x+y;     // return has power to send value outside the block
+        }
+
+        let result = ad(10, 20);   // calling function
+
+        <!--arrow function-->
+        const abes = () => "hello";
+        
+        <!--Calculator-->
+        let x=15;
+        let y=5;
+        const add = (x, y) => {
+            return x+y;
+        };
+        const subtract = (x, y) => {
+            return x-y;
+        };
+        const multiply = (x, y) => {
+            return x*y;
+        };
+        const divide = (x, y) => {
+            return x/y;
+        };
+        
+        document.getElementById("calc").innerHTML = add(8,2);
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="ad"></p>
+    <script>
+        // document.write("hello");
+        // alert("Reloading page");
+        // console.log("ABES");
+        //document.getElementById("ad").innerHTML="we are coders";
+        //const a = 21; // value fixed
+        // var a=10;
+        // var a=20; // only takes the latest value, last value
+        // let b=15; // cannot declare again and again
+        // document.write(a);
+
+        <!--array-->
+
+        const car=["car1", "car2", "car3"];
+        let text =""; //null character
+        for(let i=0;i<car.length;i=i+2){
+            text += car[i]+"</br>";
+        }
+        document.getElementById("ad").innerHTML = text;
+    </script>
+</body>
+</html>
