@@ -1,0 +1,6 @@
+#!/bin/sh
+MAVEN_VERSION=3.9.11
+BASE="$HOME/.m2/wrapper/dists/apache-maven-$MAVEN_VERSION"
+EXE="$BASE/apache-maven-$MAVEN_VERSION/bin/mvn"
+if [ ! -x "$EXE" ]; then echo "Use mvnw.cmd on Windows."; exit 1; fi
+exec "$EXE" "$@"

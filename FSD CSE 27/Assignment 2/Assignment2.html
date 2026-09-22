@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bus Booking System</title>
+
+    <style>
+        .form {
+            width: 500px;
+            height: auto;
+            background-color: #d6c3ea;
+            text-align: center;
+            margin: 50px auto;
+            padding: 20px;
+            border: 5px solid;
+            
+        }
+        img{
+            border-radius: 50%;
+            
+        }
+        .Alignment{
+            text-align: left;
+        }
+        .midheading{
+            background-color: #eaf0c7;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="form">
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe1NC1HTZFFwTrF5ScDoE8VGPrfdh-06V12cBYdlC6FFebeu1in_nSdeM&s=10" alt="logo" height="50" width="50">
+            <h1>Bus Booking System</h1>
+        </div>
+        
+        <div>
+            <h3 class="midheading">User Information</h3>
+        </div>
+        <div class="Alignment">
+            <label for="name">User Name :</label>
+            <input type="text" placeholder="enter your name"><br><br>
+            <label for="age">User Age :</label>
+            <input type="number" placeholder="enter your age"><br><br>
+            <label for="aadhar">Aadhar Number :</label>
+            <input type="number" placeholder="enter aadhar number"><br><br>
+            <label for="city">Select Your City :</label>
+            
+             <select id="cars" name="cars">
+                <option value="volvo">Delhi</option>
+                <option value="saab">Mumbai</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+            <br><br>
+            <label for="date">Select Date :</label>
+            <input type="date"><br><br>
+        </div>
+        
+        <div>
+            <h3 class="midheading">Bus Information</h3>
+        </div>
+        <div class="Alignment">
+            <label>Select your bus type :</label><br><br>
+            <label for="bus">AC Bus :</label>
+            <input type="radio"><br><br>
+            <label for="bus">Non-AC Bus :</label>
+            <input type="radio"><br><br>
+            <label for="seat">Select Number Of Seat :</label>
+            <input type="number" placeholder="Select no of seats"><br><br>
+
+        </div>
+        <script>
+
+            
+
+        </script>
+
+        <button onclick="buy()">Book Now</button>
+
+    </div>
+
+</body>
+</html>
